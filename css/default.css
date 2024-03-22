@@ -787,7 +787,7 @@
 .pr6 {
   padding-right: 6px;
 }
-.mt--5 {
+.mt-5 {
   margin-top: -5px;
 }
 .mb-12 {
@@ -1034,6 +1034,12 @@ textarea:focus-visible {
 }
 .right-0 {
   right: 0;
+}
+.right-15{
+  right: 15%;
+}
+.left-15{
+  left: 15%;
 }
 .bottom-0 {
   bottom: 0;

@@ -91,6 +91,9 @@ h5 {
 h6 {
   font-size: 21px;
 }
+a{
+  text-decoration: none;
+}
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
