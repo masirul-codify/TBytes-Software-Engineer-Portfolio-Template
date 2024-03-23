@@ -14,18 +14,18 @@
 4. intro feature area
 5. about area
 6. fun fact area
-   why choose us area
-7. portfolio area
-8. experience area
-9. skill area
-10. price area
-11. service area
-12. testimonial area
-13. brand area
-14. contact area
-15. blog area
-16. footer area
-17. extra info css
+7. why choose us area
+8. portfolio area
+9. experience area
+10. skill area
+11. price area
+12. service area
+13. testimonial area
+14. brand area
+15. contact area
+16. blog area
+17. footer area
+18. extra info css
 */
 
 /* 1. Theme default css
@@ -959,7 +959,7 @@ span#main {
 }
 
 
-/* 7. portfolio area
+/* 8. portfolio area
 -------------------------------------------------------------- */
 .single-portfolio {
   padding-top: 48px;
@@ -1009,7 +1009,7 @@ span#main {
   line-height: 1.3;
 }
 
-/* 8. experience area
+/* 9. experience area
 -------------------------------------------------------------- */
 .experience-img {
   margin-left: -48%;
@@ -1055,7 +1055,7 @@ span#main {
   font-size: 18px;
 }
 
-/* 9. skill area
+/* 10. skill area
 -------------------------------------------------------------- */
 .single-skill .knob {
   color: #2e2e37 !important;
@@ -1071,7 +1071,7 @@ span#main {
   left: -25px;
 }
 
-/* 10. price area
+/* 11. price area
 -------------------------------------------------------------- */
 .single-price:hover {
   margin-top: -20px;
@@ -1104,7 +1104,7 @@ span#main {
   font-size: 30px;
 }
 
-/* 11. service area
+/* 12. service area
 -------------------------------------------------------------- */
 .single-service {
   box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.08);
@@ -1135,7 +1135,7 @@ span#main {
   font-size: 30px;
 }
 
-/* 12. testimonial area
+/* 13. testimonial area
 -------------------------------------------------------------- */
 .testimonial-text {
   font-size: 24px;
@@ -1172,7 +1172,7 @@ span#main {
   right: -19%;
 }
 
-/* 13. brand area
+/* 14. brand area
 -------------------------------------------------------------- */
 .brand-active li {
   text-align: center;
@@ -1193,7 +1193,7 @@ span#main {
   top: 0;
 }
 
-/* 14. contact area
+/* 15. contact area
 -------------------------------------------------------------- */
 .contact-icon {
   width: 72px;
@@ -1226,7 +1226,7 @@ span#main {
   border-radius: 10px;
 }
 
-/* 15. blog area
+/* 16. blog area
 -------------------------------------------------------------- */
 .blog-meta li span {
   font-size: 15px;
@@ -1317,7 +1317,7 @@ span#main {
   font-size: 14px;
 }
 
-/* 16. footer area
+/* 17. footer area
 -------------------------------------------------------------- */
 .subscribe-info span {
   right: 25px;
@@ -1336,7 +1336,7 @@ span#main {
   -o-border-radius: 50%;
 }
 
-/* 17. extra info css
+/* 18. extra info css
 -------------------------------------------------------------- */
 #scroll a {
   position: fixed;
