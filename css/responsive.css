@@ -669,8 +669,12 @@
     padding-bottom: 30px;
   }
   .fun-fact-area {
-    padding-top: 130px;
+    padding-top: 140px;
     padding-bottom: 130px;
+  }
+  .why-choose-us-area {
+    padding-top: 95px;
+    padding-bottom: 0px;
   }
   .award-area {
     padding-top: 120px;
@@ -972,7 +976,11 @@
   .fun-fact-area {
     padding-top: 70px;
     padding-bottom: 40px;
-  }
+  }  
+  .why-choose-us-area {
+    padding-top: 215px;
+    padding-bottom: 0px;
+}
   .signature {
     margin-bottom: 30px;
   }

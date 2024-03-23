@@ -11,9 +11,10 @@
 1. Theme default css
 2. header
 3. slider
-4. about area
+4. intro feature area
 5. about area
 6. fun fact area
+   why choose us area
 7. portfolio area
 8. experience area
 9. skill area
@@ -746,6 +747,217 @@ span#main {
   bottom: -75px;
   right: -5px;
 }
+
+
+/* 7. WHY CHOOSE US AREA  */ 
+ 
+/* border animation function */ 
+.top-image-wrapper-box{
+  position: relative;
+  padding: 30px;
+}
+.top-image-wrapper-box .top-img-wrapper {
+    padding: 22px 20px;
+    position: absolute;
+    top: -135px;
+    right: 5%;
+    z-index: 3;
+}
+
+.bottom-image-wrapper-box{
+  position: relative;
+  padding: 30px;
+}
+
+.bottom-image-wrapper-box .top-img-wrapper.style-two {
+    padding: 22px 20px;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.top-image-wrapper-box .top-img-wrapper.box,
+.bottom-image-wrapper-box .top-img-wrapper.box {
+	background-image: repeating-linear-gradient(-3deg, #7DD857, #7DD857 14px, transparent 14px, transparent 25px, #7DD857 25px), repeating-linear-gradient(87deg, #7DD857, #7DD857 14px, transparent 14px, transparent 25px, #7DD857 25px), repeating-linear-gradient(177deg, #7DD857, #7DD857 14px, transparent 14px, transparent 25px, #7DD857 25px), repeating-linear-gradient(267deg, #7DD857, #7DD857 14px, transparent 14px, transparent 25px, #7DD857 25px);
+	background-size: 2px calc(100% + 25.03px), calc(100% + 25.03px) 2px, 2px calc(100% + 25.03px), calc(100% + 25.03px) 2px;
+	background-position: 0 0, 0 0, 100% 0, 0 100%;
+	background-repeat: no-repeat;
+	animation: borderAnimation 1s infinite linear;
+	display: inline-flex;
+}
+
+.top-image-wrapper-box .top-img-wrapper .review-card,
+.bottom-image-wrapper-box .top-img-wrapper .review-card { 
+    background-color: rgb(255, 255, 255);
+    padding: 30px 70px 20px 70px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.top-image-wrapper-box .top-img-wrapper .review-card .card-text,
+.bottom-image-wrapper-box .top-img-wrapper .review-card .card-text { 
+	text-align: center;
+}
+
+.top-image-wrapper-box .top-img-wrapper .review-card .icon-wrapper,
+.bottom-image-wrapper-box .top-img-wrapper .review-card .icon-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 8px;
+}
+
+.top-image-wrapper-box .top-img-wrapper .review-card .icon-wrapper .icon img,
+.bottom-image-wrapper-box .top-img-wrapper .review-card .icon-wrapper .icon img {
+    background-color: #7DD857;
+	padding: 13px;
+    line-height: 55px;
+	text-align: center;
+	font-size: 25px;
+    border-radius: 50%; 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.top-image-wrapper-box .top-img-wrapper .review-card .icon-wrapper .icon i,
+.bottom-image-wrapper-box .top-img-wrapper .review-card .icon-wrapper .icon i {
+    background-color: #7DD857;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.top-image-wrapper-box .top-img-wrapper .review-card .icon-wrapper  h2,
+.bottom-image-wrapper-box .top-img-wrapper .review-card .icon-wrapper  h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #23262D;
+    text-transform: capitalize;
+}
+
+@keyframes borderAnimation {
+	from {
+		background-position: 0 0, -25.03px 0, 100% -25.03px, 0 100%;
+	}
+
+	to {
+		background-position: 0 -25.03px, 0 0, 100% 0, -25.03px 100%;
+	}
+}
+
+.why-choose-us-area {
+	position: relative;   
+}
+
+.why-choose-us-area  .features .icon-content{
+	margin: 15px 0px;
+}
+
+.why-choose-us-area  .features .icon-content .icon  img{
+	width: 50%;
+}
+
+.why-choose-us-area   .images{
+	position: relative;
+}
+
+.why-choose-us-area   .images .shape-one img {
+	position: absolute;
+	width: 50%;
+	left: 0%;
+	top: 65%;
+	z-index: 0;
+	animation:  x-axis-animation 15s linear infinite;
+	-webkit-animation:  x-axis-animation 15s linear infinite;
+}
+
+.why-choose-us-area   .images .shape-two img {
+	position: absolute;
+	width: 35%;
+	left: 0%;
+	top: 5%;
+	z-index: 0;
+	animation:  y-axis-animation 15s linear infinite;
+	-webkit-animation:  y-axis-animation 15s linear infinite;
+}
+
+.why-choose-us-area  .images img{
+	position: relative;
+	z-index: 1;
+}
+.why-choose-us-area  .features {
+	margin-bottom: 200px;
+}
+
+ 
+
+@keyframes x-axis-animation{
+	0%{
+		transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		-moz-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
+}
+	50%{
+		transform: translateX(0%);
+		-webkit-transform: translateX(0%);
+		-moz-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+		-o-transform: translateX(0%);
+}
+100%{
+	transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+}
+}
+
+
+@keyframes y-axis-animation{
+	0%{
+		transform: translateY(100%);
+		-webkit-transform: translateY(100%);
+		-moz-transform: translateY(100%);
+		-ms-transform: translateY(100%);
+		-o-transform: translateY(100%);
+}
+	50%{
+		transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		-moz-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		-o-transform: translateY(0%);
+}
+100%{
+	transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-o-transform: translateY(100%);
+}
+}
+
+.why-choose-us-area  .features .icon-content .content h4{
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 30px;
+	color: #010047;
+}
+
 
 /* 7. portfolio area
 -------------------------------------------------------------- */
