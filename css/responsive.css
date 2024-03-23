@@ -138,8 +138,14 @@
     padding: 55px 46px 35px 46px;
   }
 
-
-
+  canvas {
+    width: 165px !important;
+    height: 165px !important;
+  }
+  .single-skill .knob {
+    width: 135px !important;
+    height: 45px !important;
+  }
 
 }
 
