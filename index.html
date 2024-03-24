@@ -8,16 +8,16 @@
     <title>Tbytes - Software Engineer Personal Portfolio HTML template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Place favicon.ico in the root directory -->
+    <!-- PLACE FAVICON.PNG IN THE ROOT DIRECTORY -->
     <link rel="shortcut icon" href="images/logo/favicon.png" type="image/x-icon">
 
-    <!-- Fonts -->
+    <!-- ALL FONTS LINK -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
 
 
-    <!-- All css here -->
+    <!-- ALL CSS HERE -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/flaticon.css">
@@ -33,26 +33,33 @@
 </head>
 
 <body data-background="images/slider/body-bg.jpg">
-    <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!--  ====== preloader=============================================  -->
+    <!--========================
+            PRELOADER
+    ===========================-->
     <div id="preloader">
         <div id="loading">
             <div id="loading-center">
                 <div id="loading-center-absolute">
-                    <div class="object" id="object_one"></div>
-                    <div class="object" id="object_two"></div>
-                    <div class="object" id="object_three"></div>
+                    <div class="circle" id="circle_one"></div>
+                    <div class="circle" id="circle_two"></div>
+                    <div class="circle" id="circle_three"></div>
                 </div>
             </div>
         </div>
-    </div><!-- /preloader -->
+    </div> 
+    <!--========================
+            /PRELOADER
+    ===========================-->
 
 
-    <!--  ====== header-area-start
-    ============================================================ -->
+    <!--===============================
+            HEADER AREA START
+    ================================== -->
     <header>
         <div id="header-sticky" class="transparent-header header-area">
             <div class="header">
@@ -91,7 +98,7 @@
                                 </nav>
                             </div><!-- /main-menu -->
                             <div class="header-btn pl-45">
-                                <a href="#" class="white-text text-uppercase d-inline-block">download cv</a>
+                                <a href="#" class="white-text text-uppercase d-inline-block">Hire Me</a>
                             </div><!-- /header-btn -->
                             <div class="mobile-m-bar d-block d-lg-none ml-30">
                                 <a class="mobile-menubar theme-color primary-hover" href="javascript:void(0);"><i
@@ -102,14 +109,15 @@
                 </div><!-- /container -->
             </div>
         </div><!-- /header-bottom -->
-    </header>
-    <!--  header-area-end  -->
+    </header> 
+    <!--===============================
+        /HEADER AREA END
+    ================================== -->
 
 
-    <!--  ====== header extra info start
-    ============================================================ -->
-
-    <!-- side-mobile-menu start -->
+    <!--=================================
+        HEADER SIDE MOBILE MENU START
+    ===================================== --> 
     <div class="side-mobile-menu pt-15 pb-30 pl-30 pr-20 pb-100">
         <div class="d-flex justify-content-between w-100">
             <div class="close-icon d-inline-block float-right clear-both mt-20 mb-15">
@@ -119,106 +127,64 @@
         </div>
         <div class="mobile-menu mt-10"></div>
         <h5 class="text-white text-center mt-35 pb-1 d-inline-block ml-3">Follow me</h5>
-        <ul class="social social-bg text-center d-flex mt-10 ml-3">
-            <li class="mr-2 rotate-hover">
+        <ul class="social social-bg text-center d-flex justify-content-start mt-10 ml-3">
+            <li class="me-2 rotate-hover">
                 <a class="facebook-bg text-center pr-0 text-white d-block transition-3 rotate" href="#"><i
                         class="fab fa-facebook-f"></i></a>
             </li>
-            <li class="mr-2 rotate-hover">
+            <li class="me-2 rotate-hover">
                 <a class="twitter-bg text-center pr-0 text-white d-block rotate transition-3" href="#"><i
                         class="fab fa-twitter"></i></a>
             </li>
-            <li class="mr-2 rotate-hover">
+            <li class="me-2 rotate-hover">
                 <a class="linkedin-bg text-center pr-0 text-white d-block rotate transition-3" href="#"><i
                         class="fab fa-linkedin-in"></i></a>
             </li>
-            <li class="mr-2 rotate-hover">
+            <li class="me-2 rotate-hover">
                 <a class="instagram-bg text-center pr-0 text-white d-block rotate transition-3" href="#"><i
                         class="fab fa-instagram"></i></a>
             </li>
         </ul><!-- social -->
     </div><!-- /side-mobile-menu -->
     <div class="body-overlay"></div>
-    <!-- header extra info end  -->
+    <!--=================================
+        /HEADER SIDE MOBILE MENU END
+    ===================================== --> 
 
     <main class="over-hiddenn">
 
         <!-- ====== slider-area-start
         ==================================================== -->
-        <div id="home" class="slider-area slider-bg-color over-hidden">
-            <div class="single-slider slider-height over-hidden position-relative xxl-device-width bg-cover no-repeat"
-                data-background="images/slider/slider-bg.jpg">
-
-                <div id="scene" class="parallax position-absolute w-100 h-100 z-index1">
-                    <img data-depth="0.20" class="hero-shape hero-shape1 position-absolute d-none d-lg-inline-block"
-                        src="images/shape/shape1.png" alt="#"><!-- /hero-shape1 -->
-                    <img data-depth="0.15" class="hero-shape hero-shape2 position-absolute d-none d-lg-inline-block"
-                        src="images/shape/shape2.png" alt="#"><!-- /hero-shape2 -->
-                    <img data-depth="0.30" class="hero-shape hero-shape3 position-absolute d-none d-lg-inline-block"
-                        src="images/shape/shape3.png" alt="#"><!-- /hero-shape3 -->
-                    <img data-depth="0.10" class="hero-shape hero-shape4 position-absolute d-none d-lg-inline-block"
-                        src="images/shape/shape4.png" alt="#"><!-- /hero-shape4 -->
-                </div><!-- /parallax -->
-
-                <div class="container slider-height d-flex align-items-end">
-                    <div class="row justify-content-center align-items-center h-100">
-
-                        <div class="col-xl-5 col-lg-6 col-md-12 col-sm-11 col-12  d-flex align-items-center justify-content-center">
-                            <div class="slider-wrapper h-100">
-                                <div class="slider-content text-center mt--45 text-lg-left position-relative z-index11"
-                                    data-aos="fade-right" data-aos-duration="2200" data-aos-delay="1000">
-                                    <h1 class="mb-15 white-text">
-                                        <span class="sub-heading d-block text-uppercase theme-color mb-0">Hello
-                                            I’m</span>
-                                        Masirul Islam
-                                    </h1>
-                                    <h2 class="text-capitalize white-text mb-40">
-                                        A Passionate
-                                        <span class="d-text d-block d-sm-inline-block">
-                                            <span class="typer theme-color d-inline-block pl-2" id="main"
-                                                data-words="Software Engineer, Web Designer, Freelancer"
-                                                data-delay="100" data-colors="#80db66"></span><span
-                                                class="cursor theme-color d-inline-block" data-owner="main"></span>
-                                        </span>
-                                    </h2>
-                                    <a href="#contact" class="btn position-relative over-hidden theme-bg text-uppercase transition5">Say Hello</a>
-                                </div><!-- /slider-content -->
-                            </div><!-- /slider-wrapper -->
-                        </div><!-- /col -->
-
-                        <div
-                            class="col-xl-7 col-lg-6 col-md-7 col-sm-10 col-12 d-flex justify-content-center align-items-end h-100">
-                            <div class="slider-img pl-120 position-relative z-index1">
+        <div id="home" class="slider-area slider-bg-color over-hidden">   
+            <div class="single-slider slider-height over-hidden position-relative xxl-device-width bg-cover no-repeat" data-background="images/slider/slider-bg.jpg" style="background-image: url(&quot;images/slider/slider-bg.jpg&quot;);">
+                <div class="container">
+                    <div class="row h-100">
+                        <div class="col-12 col-md-12 col-xl-6">
+                            <div class="slider-content mt-300 text-start">
+                                <h1 class="text-white">
+                                    <span class="subheading fs-5"> Welcome to my world </span> <br>
+                                    Hi, I'm <span class="theme-color"> Masirul Islam  </span>
+                                </h1>
+                                <h2 class="text-capitalize white-text mb-40">
+                                    A Professional <br>
+                                    <span class="d-text d-block d-sm-inline-block">
+                                        <span class="typer theme-color d-inline-block pl-2 fs-5" id="main"
+                                            data-words="Software Engineer, Web Designer, Freelancer, Frontend Developer"
+                                            data-delay="100" data-colors="#80db66"></span><span
+                                            class="cursor theme-color d-inline-block" data-owner="main"></span>
+                                    </span>
+                                </h2>
+                                <a href="#contact" class="btn position-relative over-hidden theme-bg text-uppercase transition5">Contact</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-xl-6">
+                            <div class="slider-img pl-120 mt-200 position-relative z-index1"  data-tilt data-tilt-max="10">
                                 <img src="images/slider/person.png" alt="hero image">
-                            </div><!-- /slider-img -->
-                        </div><!-- /col -->
-
-                    </div><!-- /row -->
-                </div><!-- /container -->
-
-
-                <div class="slider-social-link position-absolute right-0 d-none d-md-block z-index11">
-                    <ul class="social pr-60">
-                        <li class="mt-10 mb-10 rotate-hover">
-                            <a class="text-white text-center d-inline-block rotate" href="#"><i
-                                    class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="mt-10 mb-10 rotate-hover">
-                            <a class="text-white text-center d-inline-block rotate" href="#"><i
-                                    class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="mt-10 mb-10 rotate-hover">
-                            <a class="text-white text-center d-inline-block rotate" href="#"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                        </li>
-                        <li class="mt-10 mb-10 rotate-hover">
-                            <a class="text-white text-center d-inline-block rotate" href="#"><i
-                                    class="fab fa-youtube"></i></a>
-                        </li>
-                    </ul><!-- social -->
-                </div><!-- /slider-social-link -->
-            </div><!-- /single-slider -->
-
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </div>
         <!-- slider-area-end  -->
 
@@ -330,7 +296,7 @@
                             <div class="about-content position-relative mb-50">
                                 <div class="position-relative">
                                     <div class="title">
-                                        <span class="theme-color text-uppercase d-block mb-1 mt--5">About Me</span>
+                                        <span class="theme-color text-uppercase d-block mb-1">About Me</span>
                                         <h2 class="mb-30">I Develop System that Works</h2>
                                     </div><!-- /title -->
                                 </div>
