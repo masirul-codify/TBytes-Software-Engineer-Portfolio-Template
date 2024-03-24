@@ -512,71 +512,45 @@ a:hover,
 .slider-bg-color {
   background: #25262f;
 }
+.slider-content h1 {
+  font-size: 70px;
+  line-height: 1.07;
+}
+.subheading{
+  color: var(--main-color); 
+}
 .slider-img {
   max-height: 100vh;
 }
-.slider-content .sub-heading {
-  font-size: 24px;
-  line-height: 1.3;
-  letter-spacing: 7px;
-  font-weight: 400;
-}
-.slider-content h1 {
-  font-size: 144px;
-  line-height: 1.07;
-}
-.slider-content h2 {
-  font-size: 24px;
-  line-height: 2;
-}
-.slider-content h2 span {
-  font-size: 36px;
-  letter-spacing: 0px;
-}
-span#main {
-  color: var(--main-color) !important;
-}
-.slider-social-link {
-  top: 50%;
-  transform: translateY(-50%) !important;
-  -webkit-transform: translateY(-50%) !important;
-  -moz-transform: translateY(-50%) !important;
-  -ms-transform: translateY(-50%) !important;
-  -o-transform: translateY(-50%) !important;
-}
-.slider-social-link .social li a {
-  font-size: 18px;
-  width: 55px;
-  margin: 2px 0;
-  height: 50px;
-  line-height: 52px;
-}
-.slider-social-link .social li {
-  border: 1px solid rgb(204, 211, 217, 0.2);
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-.slider-social-link .social li:hover {
-  background: var(--main-color);
-  border: 1px solid var(--main-color);
-}
-.slider-img {
-  margin-right: -50px;
-}
+
 /* heartbeat scale effects*/
 .slider-img::before {
   position: absolute;
   content: "";
-  border-radius: 50%;
   background-color: rgb(59, 60, 70);
   opacity: 0.529;
+  left: 22%;
+  top: 0px;
+  width: 505px;
+  height: 650px;
+  z-index: -1; 
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  box-shadow: 5px 10px 30px 5px #9b9db1;
+}
+
+.slider-img::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(31, 179, 18);
+  opacity: 0.529;
   left: 5%;
-  top: 65px;
-  width: 770px;
-  height: 761px;
+  top: 50px;
+  width: 700px;
+  height: 650px;
   z-index: -1;
   transform: scale(1);
   -webkit-transform: scale(1);
@@ -585,6 +559,12 @@ span#main {
   -o-transform: scale(1);
   animation: heartbeat-middle 5s infinite alternate;
   -webkit-animation: heartbeat-middle 5s infinite alternate;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 5px 10px 30px 5px #9b9db1;
 }
 /* heartbeat-middle */
 @-webkit-keyframes heartbeat-middle {

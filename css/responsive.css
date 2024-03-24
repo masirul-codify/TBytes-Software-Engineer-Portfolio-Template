@@ -23,7 +23,7 @@
 /* XL Device :1920px. */
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .slider-content h1 {
-    font-size: 120px;
+    font-size: 60px;
   }
 }
 
@@ -37,7 +37,7 @@
     max-width: 1200px;
   }
   .slider-content h1 {
-    font-size: 110px;
+    font-size: 55px;
   }
   .slider-content span {
     font-size: 40px;
@@ -302,7 +302,7 @@
     line-height: 2;
   }
   .slider-content h1 {
-    font-size: 100px;
+    font-size: 50px;
   }
   .slider-content span {
     font-size: 38px;
@@ -550,7 +550,7 @@
     margin-bottom: 65px;
   }
   .slider-content h1 {
-    font-size: 100px;
+    font-size: 50px;
     line-height: 0.9;
     margin-bottom: 25px;
   }
@@ -1025,7 +1025,7 @@
     margin-bottom: 45px;
   }
   .slider-content h1 {
-    font-size: 60px;
+    font-size: 30px;
     margin-bottom: 18px;
   }
   .slider-content span {
@@ -1554,7 +1554,7 @@
 /* SM Small Device :550px. */
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .slider-content h1 {
-    font-size: 105px;
+    font-size: 52px;
   }
   .about-footer-content-right {
     margin-top: 0;
