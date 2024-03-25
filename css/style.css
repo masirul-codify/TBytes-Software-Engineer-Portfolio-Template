@@ -10,7 +10,7 @@
 -----------------------------------
 1. Theme default css
 2. header
-3. slider
+3. hero
 4. intro feature area
 5. about area
 6. fun fact area
@@ -504,27 +504,43 @@ a:hover,
   padding: 8px 20px 7px 20px;
 }
 
-/* 3. slider
+/* 3. hero
 -------------------------------------------------------------- */
-.slider-height {
+.hero-height {
   min-height: 1080px;
 }
-.slider-bg-color {
+.hero-bg-color {
   background: #25262f;
 }
-.slider-content h1 {
+.hero-content h1 {
   font-size: 70px;
   line-height: 1.07;
 }
 .subheading{
   color: var(--main-color); 
 }
-.slider-img {
+.hero-img {
   max-height: 100vh;
+}
+.hero-area .hero-absolute-shapes{
+  top: 0;
+  left:  0;
+}
+.hero-area .hero-absolute-shapes .hero-shape-1{
+  top: 0;
+  left: 0;
+}
+.hero-area .hero-absolute-shapes .hero-shape-2{
+  top: 0;
+  right: 0;
+}
+.hero-area .hero-absolute-shapes .hero-shape-3{
+  bottom: 0;
+  right: 0;
 }
 
 /* heartbeat scale effects*/
-.slider-img::before {
+.hero-img::before {
   position: absolute;
   content: "";
   background-color: rgb(59, 60, 70);
@@ -542,7 +558,7 @@ a:hover,
   box-shadow: 5px 10px 30px 5px #9b9db1;
 }
 
-.slider-img::after {
+.hero-img::after {
   position: absolute;
   content: "";
   background-color: rgb(31, 179, 18);
@@ -1305,6 +1321,18 @@ a:hover,
   transform: translateY(-50%);
 }
 .social.social-bg li a {
+  font-size: 18px;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.skills.skills-bg li a {
   font-size: 18px;
   width: 42px;
   height: 42px;
