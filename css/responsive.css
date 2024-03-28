@@ -378,9 +378,6 @@
   .testimonial-text {
     font-size: 20px;
   }
-  .blog-meta li {
-    margin-right: 8px;
-  }
   .main-menu ul li {
     margin-left: 28px;
   }
@@ -524,9 +521,6 @@
   .port-over-content h3 {
     font-size: 23px;
   }
-  .modal-body .blog-meta {
-    width: 58% !important;
-  }
   .title span {
     font-size: 19px;
   }
@@ -629,9 +623,6 @@
   }
   .testimonial-text {
     font-size: 20px;
-  }
-  .blog-meta li {
-    margin-right: 8px;
   }
   h3 {
     font-size: 50px;
@@ -855,9 +846,6 @@
     width: 480px;
     height: 470px;
   }
-  .blog-modal-img img {
-    border-radius: 12px;
-  }
   .marquee span {
     font-size: 60px;
   }
@@ -882,9 +870,6 @@
   }
   .slider-img {
     padding-left: 0;
-  }
-  .blog-modal-img img {
-    border-radius: 12px;
   }
   .slider-img::before {
     left: -85px;
@@ -1225,13 +1210,6 @@
   .side-mobile-menu {
     width: 95%;
   }
-  .blog-meta li.mr-15 {
-    margin-right: 8px;
-  }
-  .single-blog-content {
-    padding-left: 20px;
-    padding-right: 15px;
-  }
   .single-service {
     padding-left: 30px;
     padding-right: 20px;
@@ -1393,12 +1371,6 @@
     font-size: 24px;
     padding: 35px 0px 18px 0px;
   }
-  .blog-meta {
-    width: 100% !important;
-  }
-  .blog-content h6 {
-    font-size: 18px;
-  }
   .pro-modal-footer h6 {
     padding-right: 0;
   }
@@ -1408,12 +1380,6 @@
   .pro-modal-footer {
     margin-top: 0;
     margin-bottom: 10px;
-  }
-  .blog-meta li a,
-  .blog-meta li span,
-  .blog-meta li a::before,
-  .blog-meta li span::before {
-    font-size: 14px;
   }
   .port-content {
     font-size: 16px;
@@ -1562,10 +1528,6 @@
   .about-footer-content {
     margin-top: 16px;
   }
-
-  .blog-meta li.mr-15 {
-    margin-right: 5px;
-  }
   .side-mobile-menu {
     width: auto;
   }
@@ -1605,18 +1567,6 @@
   }
   .modal-content h2 {
     font-size: 28px;
-  }
-  .blog-meta li a,
-  .blog-meta li span,
-  .blog-meta li a::before,
-  .blog-meta li span::before {
-    font-size: 13px;
-  }
-  .modal-body .blog-meta {
-    width: 80% !important;
-  }
-  .single-blog-content h3 {
-    font-size: 21px;
   }
   .slider-content p {
     padding-left: 60px;
@@ -1675,9 +1625,6 @@
   h6 {
     font-size: 20px;
   }
-  .blog-meta li.mr-15 {
-    margin-right: 18px;
-  }
   .single-fact span {
     font-size: 60px;
   }
@@ -1691,12 +1638,7 @@
   .modal-content h2 {
     font-size: 22px;
   }
-  .blog-meta li a,
-  .blog-meta li span,
-  .blog-meta li a::before,
-  .blog-meta li span::before {
-    font-size: 16px;
-  }
+
   .slider-content p {
     padding-left: 60px;
     padding-right: 60px;
