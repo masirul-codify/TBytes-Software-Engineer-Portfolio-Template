@@ -434,7 +434,7 @@
     margin-top: 130px;
     padding-bottom: 72px;
   }
-  .education-area .theme-border-bottom {
+  .resume-area  {
     padding-top: 75px;
   }
   .skill-area {
@@ -472,7 +472,7 @@
   .footer-area {
     margin-bottom: 40px;
   }
-  .education-wrapper {
+  .resume-wrapper {
     margin-right: 0;
   }
   .experience-area {
@@ -692,7 +692,7 @@
   .experience-area {
     padding-bottom: 130px;
   }
-  .education-area .theme-border-bottom {
+  .resume-area  {
     padding-top: 115px;
   }
   .skill-area {
@@ -830,7 +830,7 @@
   .service-text h3 {
     font-size: 28px;
   }
-  .education-wrapper {
+  .resume-wrapper {
     margin-right: 0;
   }
   .modal-content {
@@ -999,7 +999,7 @@
     margin-right: 0;
     padding-top: 0;
   }
-  .education-wrapper {
+  .resume-wrapper {
     margin-right: 0;
   }
   .contact-wrapper {
@@ -1275,7 +1275,7 @@
   .experience-area {
     padding-bottom: 62px;
   }
-  .education-area .theme-border-bottom {
+  .resume-area  {
     padding-top: 115px;
   }
   .skill-area {
