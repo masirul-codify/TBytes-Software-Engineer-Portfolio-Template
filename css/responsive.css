@@ -51,6 +51,10 @@
     bottom: -85px;
   }
 
+  .service-text-style {
+    font-size: 230px;
+    bottom: -215px;
+  }
   .experience-margin {
     margin-right: 0;
   }
@@ -219,6 +223,10 @@
     font-size: 200px;
     bottom: -75px;
     right: -24px;
+  }
+  .service-text-style {
+    font-size: 230px;
+    bottom: -215px;
   }
   .intro-ft-icon img {
     max-width: 40px;
@@ -426,7 +434,7 @@
     margin-top: 130px;
     padding-bottom: 72px;
   }
-  .education-area .theme-border-bottom {
+  .resume-area  {
     padding-top: 75px;
   }
   .skill-area {
@@ -464,7 +472,7 @@
   .footer-area {
     margin-bottom: 40px;
   }
-  .education-wrapper {
+  .resume-wrapper {
     margin-right: 0;
   }
   .experience-area {
@@ -509,6 +517,10 @@
   .intro-feature-text-style {
     font-size: 230px;
     bottom: -90px;
+  }
+  .service-text-style {
+    font-size: 230px;
+    bottom: -215px;
   }
   .single-intro-feature-wrapper {
     padding-top: 130px;
@@ -680,7 +692,7 @@
   .experience-area {
     padding-bottom: 130px;
   }
-  .education-area .theme-border-bottom {
+  .resume-area  {
     padding-top: 115px;
   }
   .skill-area {
@@ -818,7 +830,7 @@
   .service-text h3 {
     font-size: 28px;
   }
-  .education-wrapper {
+  .resume-wrapper {
     margin-right: 0;
   }
   .modal-content {
@@ -905,6 +917,10 @@
     font-size: 100px;
     bottom: -38px;
   }
+  .service-text-style {
+    font-size: 230px;
+    bottom: -215px;
+  }
   .single-intro-feature-wrapper {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -983,7 +999,7 @@
     margin-right: 0;
     padding-top: 0;
   }
-  .education-wrapper {
+  .resume-wrapper {
     margin-right: 0;
   }
   .contact-wrapper {
@@ -1259,7 +1275,7 @@
   .experience-area {
     padding-bottom: 62px;
   }
-  .education-area .theme-border-bottom {
+  .resume-area  {
     padding-top: 115px;
   }
   .skill-area {
