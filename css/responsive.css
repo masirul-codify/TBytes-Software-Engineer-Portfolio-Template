@@ -51,6 +51,10 @@
     bottom: -85px;
   }
 
+  .service-text-style {
+    font-size: 230px;
+    bottom: -215px;
+  }
   .experience-margin {
     margin-right: 0;
   }
@@ -219,6 +223,10 @@
     font-size: 200px;
     bottom: -75px;
     right: -24px;
+  }
+  .service-text-style {
+    font-size: 230px;
+    bottom: -215px;
   }
   .intro-ft-icon img {
     max-width: 40px;
@@ -509,6 +517,10 @@
   .intro-feature-text-style {
     font-size: 230px;
     bottom: -90px;
+  }
+  .service-text-style {
+    font-size: 230px;
+    bottom: -215px;
   }
   .single-intro-feature-wrapper {
     padding-top: 130px;
@@ -904,6 +916,10 @@
   .intro-feature-text-style {
     font-size: 100px;
     bottom: -38px;
+  }
+  .service-text-style {
+    font-size: 230px;
+    bottom: -215px;
   }
   .single-intro-feature-wrapper {
     padding-top: 70px;

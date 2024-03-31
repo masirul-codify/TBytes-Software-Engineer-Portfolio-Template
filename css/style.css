@@ -18,8 +18,8 @@
 8. portfolio area
 9. experience area
 10. skill area
-11. price area
-12. service area
+11. service area
+12. price area
 13. testimonial area
 14. brand area
 15. contact area
@@ -203,6 +203,7 @@ a:hover,
   transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 .btn:hover {
+  background-color: #29b302;;
   color: #ffffff;
 }
 /* btn css end */
@@ -1092,10 +1093,104 @@ a:hover,
   left: -25px;
 }
 
-/* 11. price area
+
+/* 11. service area
 -------------------------------------------------------------- */
+.single-service {
+  box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.08);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.single-service .number {
+  font-size: 70px;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--main-color);
+  color: transparent;
+}
+.single-service .title {
+  font-size: 40px;
+  font-weight: 500; 
+  color: #fff;
+}
+
+.single-service  .details{
+  font-size: 18px;
+  font-weight: 500; 
+  color: #fff;
+}
+
+.single-service .icon i {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.single-service:hover{
+  background-color: var(--main-color);
+}
+.single-service:hover .number {  
+  font-size: 70px;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+}
+
+.single-service:hover .icon i {
+   transform: rotate(-45deg);
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+}
+
+.service-text-style {
+  font-size: 230px;
+  bottom: -215px;
+  color: var(--secondary-color)!important;
+  opacity: 0.5;
+}
+/* 12. price area
+-------------------------------------------------------------- */
+.single-price ul li p{
+  color: #fff;
+}
+
+.single-price ul li span i{
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  font-size: 10px;
+  text-align: center;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.single-price {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
 .single-price:hover {
   margin-top: -20px;
+  border: 1px solid var(--main-color);
 }
 .price-list li p,
 .price-list li span {
@@ -1122,37 +1217,6 @@ a:hover,
   font-size: 18px;
 }
 .single-price h3 {
-  font-size: 30px;
-}
-
-/* 12. service area
--------------------------------------------------------------- */
-.single-service {
-  box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.08);
-}
-.service-circle.service-small-circle {
-  width: 36px;
-  height: 36px;
-  top: -11px;
-  left: -14px;
-  background: #f0f9fa;
-}
-.service-circle.service-large-circle {
-  width: 58px;
-  height: 58px;
-  bottom: -12px;
-  right: -12px;
-  background: #f0f9fa;
-}
-.single-service:hover .service-circle.service-small-circle {
-  top: 35px;
-  left: 48px;
-}
-.single-service:hover .service-circle.service-large-circle {
-  bottom: 30px;
-  right: 32px;
-}
-.service-text h3 {
   font-size: 30px;
 }
 
