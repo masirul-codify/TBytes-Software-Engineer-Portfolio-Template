@@ -146,10 +146,7 @@
     width: 165px !important;
     height: 165px !important;
   }
-  .single-skill .knob {
-    width: 135px !important;
-    height: 45px !important;
-  }
+  
 
 }
 
@@ -355,12 +352,7 @@
     width: 160px !important;
     height: 160px !important;
   }
-  .single-skill .knob {
-    color: #2e2e37 !important;
-    margin-left: -128px !important;
-    font-size: 32px !important;
-    margin-top: 50px !important;
-  }
+ 
   h5 {
     font-size: 22px;
   }
@@ -470,7 +462,7 @@
     margin-top: 50px;
   }
   .footer-area {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .resume-wrapper {
     margin-right: 0;
@@ -753,7 +745,7 @@
   }
   .footer-area {
     padding-top: 102px;
-    margin-bottom: 45px;
+    padding-bottom: 45px;
   }
   .port-button {
     margin-bottom: 28px;
@@ -1313,7 +1305,7 @@
   }
   .footer-area {
     padding-top: 60px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
   }
   .port-button {
     margin-bottom: 28px;
